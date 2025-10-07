@@ -149,7 +149,6 @@
                                 <option value="" {{ old('status', $order->status) == '' ? 'selected' : '' }}>
                                     - Pilih Status Pesanan -
                                 </option>
-
                                 @foreach ($statusOptions as $status)
                                 <option value="{{ $status }}" {{ old('status', $order->status) == $status ? 'selected' :
                                     '' }}>
